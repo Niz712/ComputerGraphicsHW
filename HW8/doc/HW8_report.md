@@ -181,7 +181,7 @@ void renderPointsAndLines(int size, bool ifLine, bool ifClear) {
 
 3. 动态绘制中间点和直线
 
-   ![img](https://images0.cnblogs.com/blog/81011/201311/22000330-bf230f9187db48cb8b6d5445ffa8311f.png) 
+   ![img](mid.png) 
 
    中间点通过设置frame来获取，然后调用渲染函数来绘制中间点和直线。
 
@@ -225,10 +225,3 @@ void renderPointsAndLines(int size, bool ifLine, bool ifClear) {
 ## 实现效果
 
 ![demo](demo.gif)
-
-
-
-## References
-
-- [阴影映射](https://learnopengl-cn.github.io/05%20Advanced%20Lighting/03%20Shadows/01%20Shadow%20Mapping)
-- [Tutorial 16 : Shadow mapping](http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-16-shadow-mapping)
