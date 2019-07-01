@@ -99,9 +99,8 @@ int Factorial(int x) {
 ```
 
 **Bernstein基函数**
-$$
-B_{i,n}(t) = \frac{n!}{i!(n-i)!} t^i(1-t)^{n-i}, i = 0, 1,...,n
-$$
+
+![Bernstein](Bernstein.png)
 
 ```c++
 float Bernstein(int i, int n, float t) {
